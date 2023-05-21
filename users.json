@@ -1,20 +1,28 @@
-[
-    {
-        "name": "Ajit",
-        "email": "ajit@gmail.com",
-        "gender": "male",
-        "password": "12345"
-    },
-    {
-        "name": "Ajit",
-        "email": "ajitKhatua@gmail.com",
-        "gender": "male",
-        "password": "12345"
-    },
-    {
-        "name": "satya",
-        "email": "satya@gmail.com",
-        "gender": "male",
-        "password": "12345"
-    }
-]
+{
+    "users": [
+        {
+            "name": "Ajit",
+            "email": "ajit@gmail.com",
+            "gender": "male",
+            "password": "12345"
+        },
+        {
+            "name": "Ajit",
+            "email": "ajitKhatua@gmail.com",
+            "gender": "male",
+            "password": "12345"
+        },
+        {
+            "name": "satya",
+            "email": "satya@gmail.com",
+            "gender": "male",
+            "password": "12345"
+        },
+        {
+            "name": "satya",
+            "email": "Alok@gmail.com",
+            "gender": "male",
+            "password": "12345"
+        }
+    ]
+}

@@ -2,7 +2,8 @@ const fs=require("fs")
 const logger=(req,res,next)=>{
     let method=req.method
     let url=req.url
-    let obj={method,url}
+    let reqTime=new Date()
+    let obj={method,url,reqTime}
     fs.readFile("./logger.json",(err,data)=>{
         if(err){
             console.log("Error while reading the logger file",err)
