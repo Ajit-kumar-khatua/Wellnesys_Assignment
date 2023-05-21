@@ -1,0 +1,14 @@
+[
+    {
+        "method": "GET",
+        "url": "/api/users"
+    },
+    {
+        "method": "GET",
+        "url": "/api/users"
+    },
+    {
+        "method": "POST",
+        "url": "/api/users"
+    }
+]

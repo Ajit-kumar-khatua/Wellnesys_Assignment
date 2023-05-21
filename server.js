@@ -1,10 +1,11 @@
 const express=require("express")
 require("dotenv").config()
 const fs=require("fs")
+const { logger } = require("./middlewares/logger.middleware")
 
 const app=express()
 app.use(express.json())
-
+app.use(logger)
 
 app.get("/",(req,res)=>{
     res.status(200).send("Welcome to Wellnesys Home Route!!!")
