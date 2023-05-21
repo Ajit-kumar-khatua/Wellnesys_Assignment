@@ -1,6 +1,6 @@
-### Welcome to Wellnesys App
+## Welcome to Wellnesys App
 
-## API :- https://wellnesys-dxhg.onrender.com/
+### API :- https://wellnesys-dxhg.onrender.com/
 
 This is a simple web application built using Node.js and the Express framework. It provides a basic server that
  listens on a specified port and implements three different routes. The application allows users to retrieve a 
@@ -18,10 +18,10 @@ This is a simple web application built using Node.js and the Express framework. 
       
       - npm install
 
-### Routes
+## Routes
     The application implements the following routes:
 
- 1. Route 1: Welcome Message
+ ### 1. Route 1: Welcome Message
 
    - URL: '/'
    - Method: GET
@@ -29,7 +29,7 @@ This is a simple web application built using Node.js and the Express framework. 
    - Example Response :
         "Welcome to Wellnesys Home Route!!!"
 
- 2. Route 2: Save User Information
+### 2. Route 2: Save User Information
 
    - URL: /users
    - Method: POST
@@ -44,7 +44,7 @@ This is a simple web application built using Node.js and the Express framework. 
         "pasword":"12345"
         }
 
- 3. Route 3: Retrieve User Information
+### 3. Route 3: Retrieve User Information
 
    - URL: /users
    - Method: GET
@@ -66,7 +66,7 @@ This is a simple web application built using Node.js and the Express framework. 
                 }]
          }
 
-### Error Handling
+## Error Handling
 The application handles the following error scenarios:
 
 Invalid routes: If an invalid route is accessed, the server responds with a "Not Found" error (HTTP status code 404).
